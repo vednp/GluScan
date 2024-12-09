@@ -15,13 +15,10 @@ function App() {
         }}
       >
         <Navbar />
-
-        {/* Setting up routes */}
         <Routes>
           <Route path="/" element={<HeroSection />} />
           <Route path="/analyze" element={<VideoFrameAnalyzer />} />
         </Routes>
-
         <Footer />
       </div>
     </Router>

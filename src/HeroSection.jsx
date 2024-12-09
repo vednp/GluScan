@@ -10,7 +10,7 @@ function HeroSection() {
 
   const handleStartClick = () => {
     setClickedStart(true);
-    navigate("/analyze"); // Navigate to the VideoFrameAnalyzer component
+    navigate("/analyze"); 
   };
 
   return (
